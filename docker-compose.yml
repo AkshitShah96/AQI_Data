@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  aqi_pipeline:
+    build: .
+    container_name: aqi_pipeline
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: ["python", "pipeline/aqi_pipeline.py"]

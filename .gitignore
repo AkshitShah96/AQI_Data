@@ -1,0 +1,41 @@
+# Ignore data outputs
+aqi_cleaned_data.csv
+data/
+*.csv
+
+# Ignore logs
+collection.log
+*.log
+
+# Ignore status files
+status.json
+
+# Ignore API keys and environment variables
+.env
+*.env
+creds.json
+
+# Ignore Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build files (if you later add C++ dashboard or JS UI)
+build/
+dist/
+node_modules/
+
+# Ignore compiled binaries
+*.out
+*.o
